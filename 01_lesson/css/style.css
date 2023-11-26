@@ -15,7 +15,7 @@ a {
     font-weight: bold;
 }
 
-.normal_text {
+.normal_text, .normal_text ~ p {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
