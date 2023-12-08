@@ -29,6 +29,10 @@
     margin-top: 26px;
     margin-bottom: 20px;
     margin-right: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
 }
 
 .home {
@@ -102,6 +106,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -182,7 +187,7 @@
 }
 
 .featured_block_padding {
-    padding: 24px 16px;
+    padding: 24px 29px 20px 16px;
 }
 
 .featured_block_title {
@@ -209,4 +214,109 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.but_view_all_prod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 212px;
+    height: 48px;
+    color: #F26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px #FF6A6A solid;
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 367.29px);
+        padding-right: calc(50% - 367.29px);
+    }
+
+    .left_menu {
+        margin-left: 32px;
+    }
+
+    .right_menu {
+        margin-right: 41px;
+        gap:25px
+    }
+
+    .right_menu_basket {
+        margin-left: 17px;
+    }
+
+    .left_home_img {
+        height: 368px;
+    }
+
+    .home {
+        height: 368px;
+    }
+
+    .right_home {
+        height: 78px;
+        margin-top: 138.1px;
+    }
+
+    .home_text_title {
+        font-size: 44px;
+    }
+    
+    .home_text_sub {
+        font-size: 24px;
+    }
+
+    .category {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: calc(50% - 367.29px);
+        padding-right: calc(50% - 367.29px);
+    }
+
+    .top_category {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .top_category_block, .top_category_block img {
+        width: 100%;
+    }
+
+    .category_text {
+        height: 50%;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: none;
+    }
+
+    .featured {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: calc(50% - 367.29px);
+        padding-right: calc(50% - 367.29px);
+        margin-top: 110px;
+        margin-bottom: 70.52px;
+    }
+
+    .featured_content {
+        gap: 14px;
+    }
+
+    .featured_desc {
+        margin-bottom: 73.74px;
+    }
+
+    .but_view_all_prod {
+        margin-top: 32.5px;
+    }
+
 }
