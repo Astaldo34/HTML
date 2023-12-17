@@ -35,6 +35,28 @@
     gap: 30px;
 }
 
+.right_menu_basket_div {
+    position: relative;
+}
+
+.basket_tracker {
+    width: 19px;
+    height: 19px;
+    background-color: #F16D7F;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .home {
     display: flex;
     height: 764px;
